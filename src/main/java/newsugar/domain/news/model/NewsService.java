@@ -2,8 +2,9 @@ package newsugar.domain.news.service;
 
 import lombok.RequiredArgsConstructor;
 import newsugar.domain.news.dto.NewsDto;
+import newsugar.domain.news.entity.NewsRepository;
 import newsugar.domain.news.model.News;  // ★ 여기도 중요
-import newsugar.domain.news.repository.NewsRepository;
+
 import org.springframework.stereotype.Service;
 import java.util.List;
 

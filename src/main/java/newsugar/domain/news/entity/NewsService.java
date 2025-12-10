@@ -1,9 +1,9 @@
-package newsugar.domain.news.service;
+package newsugar.domain.news.entity;
 
 import lombok.RequiredArgsConstructor;
 import newsugar.domain.news.dto.NewsDto;
 import newsugar.domain.news.model.NewsCategory;
-import newsugar.domain.news.repository.NewsRepository;
+import newsugar.domain.news.service.RSSService;
 
 import org.springframework.stereotype.Service;
 import java.util.List;
