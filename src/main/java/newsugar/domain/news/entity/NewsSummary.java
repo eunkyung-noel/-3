@@ -1,10 +1,11 @@
 package newsugar.domain.news.entity;
 
-import jakarta.persistence.*;
-import lombok.*;
+import jakarta.persistence.;
+import lombok.;
 import newsugar.domain.news.model.News;
 
 @Entity
+@Table(name = "summary")
 @Getter @Setter
 @NoArgsConstructor
 @AllArgsConstructor

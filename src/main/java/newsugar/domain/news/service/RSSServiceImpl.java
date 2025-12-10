@@ -28,7 +28,7 @@ public class RSSServiceImpl implements RSSService {
                         entry.getTitle(),
                         entry.getDescription() != null ? entry.getDescription().getValue() : "",
                         entry.getLink(),
-                        NewsCategory.GENERAL // 기본값 (원하면 카테고리 지정)
+                        NewsCategory.IT
                 ));
             }
 

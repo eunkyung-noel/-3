@@ -1,9 +1,8 @@
 package newsugar.domain.news.entity;
 
-import jakarta.persistence.*;
-import lombok.*;
+import jakarta.persistence.;
+import lombok.;
 import newsugar.domain.news.entity.News;
-
 
 @Entity
 @Getter

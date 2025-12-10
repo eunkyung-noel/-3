@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 import newsugar.domain.news.dto.NewsResponse;
 import newsugar.domain.news.model.NewsCategory;
-import newsugar.domain.news.service.NewsService;
+import newsugar.domain.news.model.NewsService;
 
 import java.util.List;
 
@@ -29,7 +29,7 @@ public class NewsController {
     @PostMapping("/refresh/{category}")
     public String refreshNews(@PathVariable NewsCategory category) {
 
-        // ⭐ 연합뉴스 RSS URL 매핑
+    // ⭐연합뉴스 RSS URL 매핑
         String rssUrl = switch (category) {
             case POLITICS -> "https://www.yna.co.kr/rss/politics.xml";
             case ECONOMY -> "https://www.yna.co.kr/rss/economy.xml";
